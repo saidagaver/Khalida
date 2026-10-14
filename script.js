@@ -259,6 +259,8 @@ async function startCelebration() {
   await cinematic();
   $('greet').style.opacity = '1';
   await sleep(900);
+  $('intro').classList.add('in');
+  await sleep(3200);
   await playPoem();
 }
 
